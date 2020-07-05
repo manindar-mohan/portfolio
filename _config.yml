@@ -1,0 +1,47 @@
+title: Manieendar Mohan
+description: > # this means to ignore newlines until "baseurl:"
+  This site is my portfolio i am a cyber security engineer and an ethical hacker. 
+baseurl: "manieendar.me" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+blog_theme: dark # Or use dark
+
+# Profile information
+name: Manieendar Mohan
+tagline: Cyber Security Engineer | Dev
+about-description: # Add Discription
+pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+
+# Contact links
+email: manieendar.mohan@gmail.com # Add your Email address
+linkedin: manieendar-mohan-861a36186 # Add your Linkedin handle
+github: manindar-mohan # Add your Github handle
+
+# Tracker
+analytics:
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Important settings
+assets:
+  sources:
+    - assets/fonts
+    - assets/img
+    - assets/js
+    - assets/stylesheets
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+include: [_pages]
