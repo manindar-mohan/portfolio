@@ -26,10 +26,10 @@ discus-identifier: # Add your Disqus identifier
 # Important settings
 assets:
   sources:
-    - assets/fonts
-    - assets/img
-    - assets/js
-    - assets/stylesheets
+    - /assets/fonts
+    - /assets/img
+    - /assets/js
+    - /assets/stylesheets
 
 # Build settings
 exclude:
