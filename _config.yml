@@ -31,6 +31,17 @@ assets:
     - /assets/js
     - /assets/stylesheets
 
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 gems:
   - jekyll-feed
   - jekyll-assets
