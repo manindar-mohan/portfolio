@@ -1,0 +1,21 @@
+name: Portfolio Build and Deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Build Jekyll
+        uses: jerryjvl/jekyll-build-action@v1
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.1//0gWLMjEwdiDrUCgYIARAAGBASNwF-L9IrP1xLHWaUaK2tX3bGb9aCjWMw9UZuIF1lBDT6A7j7ilxbZEzDqIbH-wQJMKJ2U5coI7o }}
