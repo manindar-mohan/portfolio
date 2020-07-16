@@ -3,7 +3,7 @@ layout: post
 title:  "Sample post with all elements"
 description: Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed Do Eiusmod Tempor Incidi
 img:
-date: 2017-03-07  +0200
+date: 2017-03-07 14:15:52 +0200
 ---
 
 ## Headings
