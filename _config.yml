@@ -37,7 +37,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
-  - [vendor]
+  
+exclude: [vendor]
 
 gems:
   - jekyll-feed
