@@ -36,9 +36,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - node_modules
-  
-exclude: [vendor]
+  - LICENSE
+  - README.md
+  - public
 
 gems:
   - jekyll-feed
