@@ -26,4 +26,4 @@ In this rising time of cyber attacks, taking preventive action against these int
 * Regularly change passwords and ensure that they’re not easy to predict
 
 
-*more detailed version is published [HERE](https://beaglesecurity.com}/blogs/2020/04/13/Cyber-Security-Threats-and-Best-Practices-for-Remote-Workers.html)*
+*more detailed version is published [HERE]({{https://beaglesecurity.com}}{%/blogs/2020/04/13/Cyber-Security-Threats-and-Best-Practices-for-Remote-Workers.html%})*
